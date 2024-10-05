@@ -1,0 +1,38 @@
+.shopItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.itemImage {
+  width: 100px;
+}
+
+.itemCartBtn {
+  height: 40px;
+  font-weight: 700;
+  color: #d20808;
+  border: #d20808 1px solid;
+  border-radius: 30px;
+  background-color: white;
+  padding: 10px;
+}
+
+.itemCartBtn:hover {
+  background-color: #dfdfdf;
+  color: black;
+  border-color: black;
+}
+
+.itemPrice {
+  font-weight: 700;
+  color: #d20808;
+  font-size: 20px;
+}
+
+.itemTitle {
+  font-size: 30px;
+  font-weight: 700;
+}

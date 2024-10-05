@@ -1,0 +1,47 @@
+.shopCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cardImage {
+  width: 90%;
+  margin: 20px;
+}
+
+.cardPrice {
+  font-weight: 700;
+  color: #d20808;
+  font-size: 20px;
+}
+
+.cardTitle {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.cardCartBtn {
+  height: 40px;
+  font-weight: 700;
+  color: #d20808;
+  border: #d20808 1px solid;
+  border-radius: 30px;
+  background-color: white;
+  padding: 10px;
+}
+
+.cardCartBtn:hover {
+  background-color: #dfdfdf;
+  color: black;
+  border-color: black;
+}
+
+.cardBottom {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
